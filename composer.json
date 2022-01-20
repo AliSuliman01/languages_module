@@ -1,0 +1,22 @@
+{
+    "name": "alisuliman/languages",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Suliman",
+            "email": "alisulimanq@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.80"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alisuliman\\Languages\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
